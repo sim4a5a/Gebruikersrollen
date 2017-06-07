@@ -1,4 +1,11 @@
+
 <!DOCTYPE html>
+
+<?php
+session_start();
+
+include 'login.php'
+?>
 <!--
 Template Name: Cooban
 Author: <a href="http://www.os-templates.com/">OS Templates</a>
@@ -18,17 +25,17 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- Top Background Image Wrapper -->
-<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');"> 
+<div class="wrapper bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');">
   <!-- ################################################################################################ -->
   <div class="row1">
-    <header id="header" class="hoc clear"> 
+    <header id="header" class="hoc clear">
       <!-- ################################################################################################ -->
       <div id="logo" class="fl_left">
         <h1><a href="index.html">Cooban</a></h1>
       </div>
       <nav id="mainav" class="fl_right">
         <ul class="clear">
-          <li class="active"><a href="index.php">Home</a></li>
+          <li class="active"><a href="home.php">Home</a></li>
           <li><a class="drop" href="#">Voorraden</a>
             <ul>
               <li><a href="voorraad.php">Voorraden</a></li>
@@ -45,7 +52,7 @@ Licence URI: http://www.os-templates.com/template-terms
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
   <!-- ################################################################################################ -->
-  <div id="breadcrumb" class="hoc clear"> 
+  <div id="breadcrumb" class="hoc clear">
     <!-- ################################################################################################ -->
     <!-- ################################################################################################ -->
   </div>
@@ -56,10 +63,10 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
-  <main class="hoc container clear"> 
+  <main class="hoc container clear">
     <!-- main body -->
     <!-- ################################################################################################ -->
-    <div class="content"> 
+    <div class="content">
       <!-- ################################################################################################ -->
       <h1>Home</h1>
       <p>Deze site moet worden beveiligd. De volgende rollen moeten kunnen worden onderscheiden:</p>
@@ -82,7 +89,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row4">
-  <footer id="footer" class="hoc clear"> 
+  <footer id="footer" class="hoc clear">
     <!-- ################################################################################################ -->
     <div class="one_quarter first">
       <h6 class="title">Phasellus aenean</h6>
@@ -127,7 +134,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row5">
-  <div id="copyright" class="hoc clear"> 
+  <div id="copyright" class="hoc clear">
     <!-- ################################################################################################ -->
     <p class="fl_left">Copyright &copy; 2015 - All Rights Reserved - <a href="#">Domain Name</a></p>
     <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
